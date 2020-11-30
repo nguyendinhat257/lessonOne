@@ -1,0 +1,186 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header {
+	margin: 70px;
+	min-height: 775px;
+	background-image: url("images/imageHeader.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header #header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	height: 50px;
+}
+header #header #container-for-menu ul {
+	display: flex;
+}
+header #header #container-for-menu ul li {
+	margin: 0px 10px;
+	height: 24px;
+	line-height: 24px;
+list-style: none;
+}
+header #header #container-for-menu ul li a {
+	color: #626262;
+	text-decoration: none;
+	padding: 10px;
+	font-family: "Playfair Display",sans-serif;
+	font-size: 14px;
+
+}
+main .container {
+	margin: 0px 150px;
+	margin-bottom: 52px;
+}
+main .container h2 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+main .container h3 {
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: both;
+	margin-bottom: 35px;
+}
+main .container p {
+	line-height: 24px;
+	font-size: 14px;
+	text-align: justify;
+}
+main .container .content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+main .container .content .items {
+	margin: 0px 50px;
+	flex-shrink: 1;
+	width: 420px;
+}
+main .container .content .items > * {
+	width: 420px;
+}
+
+main .container .content .items img {
+	height: 280px;
+	display: block;
+	margin-bottom: 30px;
+}
+main .container .content .items h3 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+main .container .content .items h4 {
+	font-family: "Playfair Display",sans-serif;
+	font-size: 30px;
+	color: #626262;
+	margin-bottom: 40px;
+}
+main .container .content .items > p {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 14px;
+	margin-bottom: 130px;
+}
+form {
+	background-color: #f0f0f0;
+	height: 290px;
+	padding: 75px 0px;
+}
+form > label {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 30px;
+	color: #333333;
+	display: block;
+	text-align: center;
+}
+form > input {
+	display: block;
+	outline: none;
+	height: 30px;
+	line-height: 30px;
+	width: 400px;
+	border: 0;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	margin: 0px auto;
+	margin-top: 85px;
+}
+form {
+	margin-bottom: 105px;
+	position: relative;
+}
+form > i {
+	position: absolute;
+	bottom: 65px;
+	left: 940px;
+}
+form > i:hover {
+	cursor: pointer;
+}
+main #load-more {
+	text-align: center;
+	
+}
+main #load-more > button{
+	height: 68px;
+	width: 162px;
+	background: transparent;
+	border: 1px solid #cbcbcb;
+	line-height: 68px;
+	outline: none;
+	border-radius: 3px;
+}
+main #load-more > button:hover {
+	cursor: pointer;
+	background-color: #ebebeb;
+}
+footer {
+	margin-top: 100px;
+	background-color: #f0f0f0;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 70px;
+	line-height: 100px;
+}
+footer > div a {
+	text-decoration: none;
+}
+footer > div > a > span {
+	display: none;
+}
+footer > #infor-of-page > a {
+	padding-right: 20px;
+	color: black;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 14px;
+}
+footer > #contact-for-me > a {
+	margin-left: 18px;
+	font-size: 15px;
+	color: #626262;
+}
+footer > #contact-for-me > a:first-child {
+	color: black;
+}
+footer > #contact-for-me > a:hover:nth-child(2) {
+	color: #0C88EF; /* facebook*/
+}
+footer > #contact-for-me > a:hover:nth-child(3) {
+	color: #55ACEF; /*twitter*/
+}
+footer > #contact-for-me > a:last-child:hover {
+	color: #E54734; /*instagram*/
+}
